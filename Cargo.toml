@@ -1,0 +1,24 @@
+[package]
+name = "capsule"
+version = "0.1.0"
+edition = "2021"
+description = "Universal zero-setup dev runtime wrapper."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/USER/capsule"
+keywords = ["python", "nodejs", "typescript", "developer-tools", "runtime"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+dirs = "5"
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+thiserror = "1"
+walkdir = "2"
+
+[dev-dependencies]
+tempfile = "3"

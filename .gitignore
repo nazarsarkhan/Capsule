@@ -1,0 +1,14 @@
+/target/
+/.capsule/
+/.tmp/
+/tests_tmp/
+/pytest-cache-files-*/
+**/__pycache__/
+*.pyc
+capsule.lock
+node_modules/
+.venv/
+.env
+*.log
+RELEASE.md
+demo/
